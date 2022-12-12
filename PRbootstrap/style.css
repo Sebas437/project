@@ -1,0 +1,233 @@
+.navbar {
+  background-color: rgb(226, 226, 226);
+  padding: 10px;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+/* section hero */
+
+.hero {
+  background-color: #f5f6f7;
+  min-height: 450px;
+  text-align: center;
+}
+
+
+
+.hero-principal {
+  padding: 3.5rem;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+}
+
+.hero-logo {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.hero-inferior-imagen {
+  width: 450px;
+  height: 300px;
+}
+
+/* estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "Rubik Dirt", cursive;
+}
+
+h2{
+  font-size: 2rem;
+
+  font-family: "Rubik Dirt", cursive;
+}
+
+/* seccion dark */
+.contenedor{
+  
+  
+  color: #fff;
+  text-align: center;
+}
+
+.seccion-dark {
+  max-width: 600px;
+  
+   
+}
+
+.seccion-dark p {
+  font-size:17px
+}
+
+.contenedor .seccion-dark h2{
+  margin: 20px;
+}
+/* seccion experiencia */
+
+.icono{
+  background-color: #0a0a23;
+  color:#7ade30;
+  padding: 8px 18px;
+  font-size: 2.5rem;
+  
+  
+}
+
+.container-exp{
+  height: auto;
+  margin: 45px 0;
+}
+
+
+
+.container-exp-icon h3{
+margin-top: 2.5rem;
+
+}
+
+.container-exp-icon p {
+  margin-top: 1.2rem;
+}
+
+.badge{
+  margin: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.container-exp-icon{
+  padding: 40px;
+ border: 2px solid #e2e2e2;
+ transition: all 0.3s ease-in;
+ }
+
+.container-exp-icon:hover{
+  background-color: #000;
+  color:#fff;
+ 
+}
+
+/* section projects recents */
+
+.cont-img img{
+/* width: 336px;
+height: 197px; */
+width: 100%;
+height: 220px;
+padding: 10px;
+border-radius: 10px;
+display:block;
+transition: all 0.2s ease;
+}
+
+.cont-img{
+  margin-bottom: 80px;
+}
+
+.overlay{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+ 
+}
+
+.overlay .iconos-contenedor i{
+  font-size: 60px;
+  color: #000;
+  margin: 10px;
+}
+
+.overlay p{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.proyecto:hover .overlay{
+  opacity: 1;
+}
+
+.proyecto:hover img{
+  opacity: 0.2;
+}
+
+.proyecto{
+  position: relative;
+}
+
+.title-recent-projects{
+  padding: 15px;
+}
+
+.title-recent-projects h3{
+  font-family: "rubik dirt";
+  font-size: 2rem;
+  padding: 5px 0;
+}
+
+.title-recent-projects p{
+font-weight: bold;
+
+}
+
+/* Articulos */
+
+.articulos{
+margin: 90px 0;
+}
+
+.seccion-titulo{
+
+  padding: 25px;
+}
+
+.articulos .card{
+  width: 80%;
+  max-width: 600px;
+  margin: 0 20px 40px 0;
+}
+
+/* testimonios */
+
+.carousel-item{
+  width: 160px;
+}
+
+
+/* media querys */
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    display: flex;
+    justify-content: end;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  overlay p {
+    font-size: 18px;
+  }
+}
