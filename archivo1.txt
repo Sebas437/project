@@ -1,2 +1,5 @@
 perro 
 gato
+
+oscar
+pedro
